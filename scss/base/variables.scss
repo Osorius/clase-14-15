@@ -1,0 +1,23 @@
+/* MAPS */
+$color-principal: rgb(215, 53, 255);
+$colores:(
+    color-nav: #000000,
+    color-footer: #080808,
+    color-md: rgb(177, 0, 177)
+);
+
+/* EXTEND */
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+/* MIXIN */
+@mixin flexbox ($direction, $justifyt, $align){
+    display: flex;
+    direction: $direction;
+    justify-content:$justifyt ;
+    align-items: $align;
+
+};
+

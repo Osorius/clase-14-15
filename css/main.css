@@ -1,0 +1,17 @@
+/* MAPS */
+/* EXTEND */
+/* MIXIN */
+.pie {
+  background-color: #080808; }
+
+.nav-color {
+  background-color: #000000; }
+
+.text-agar, .text-honeytek, .text-granomicelado, .text-bulkcompuesto, .quienes-somos, .qshero, .calle, .ubi {
+  color: #b100b1; }
+
+.tabla {
+  display: flex;
+  direction: column;
+  justify-content: flex-start;
+  align-items: center; }
